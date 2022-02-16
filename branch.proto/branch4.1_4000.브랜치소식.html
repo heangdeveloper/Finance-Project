@@ -1,0 +1,1551 @@
+﻿<!DOCTYPE html>
+<html lang="ko" class="leaf">
+<head>
+<meta charset="UTF-8">
+<title>기업의 자금업무를 위한 통합자금관리서비스</title>
+<meta http-equiv="Cache-Control" content="No-Cache">
+<meta http-equiv="Pragma" content="No-Cache">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="title" content="기업의 자금업무를 위한 통합자금관리서비스">
+<meta name="description" content="국내 전 금융기관을 기업에 연결한 온라인 은행점포로 자금현황을 실시간으로 확인하세요.">
+<meta name="keywords" content="브랜치,Branch,자금관리,자금업무,자금프로그램,대기업,중견기업,자금관리시스템,원화입출계좌,외화입출계좌,B2B,B2B매출계좌,자금집금,자금보고서,지출관리,ERP연계,ERP,계좌입출내역연계,환율정보연계,B2B매출내역,전자어음,대량이체,급여이체,법인카드,연계,전은행계좌조회,전증권사자산,전보험사계약조회,해외계좌관리,경비관리,클라우드서버,계좌권한,전용시스템">
+<!-- The Open Graph protocol -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="기업의 자금업무를 위한 통합자금관리서비스">
+<meta property="og:description" content="국내 전 금융기관을 기업에 연결한 온라인 은행점포로 자금현황을 실시간으로 확인하세요.">
+<meta property="og:url" content="http://www.xbranch.co.kr">
+<meta property="og:image" content="http://www.xbranch.co.kr/branch/branch.img/cmd/branch.png">
+<!-- //The Open Graph protocol -->
+<link rel="SHORTCUT ICON" href="http://www.xbranch.co.kr/branch/branch.img/cmd/favicon.ico">
+<link rel="stylesheet" type="text/css" href="../branch.css/reset.css">
+<link rel="stylesheet" type="text/css" href="../branch.css/content.css">
+<link rel="stylesheet" type="text/css" href="../branch.css/jquery.mCustomScrollbar.css">
+<script type="text/javascript" src="../branch.js/jquery-1.8.3.min.js"></script>
+<!-- script(slide) -->
+<script type="text/javascript" src="../branch.js/ui.vendor.js"></script>
+<script type="text/javascript" src="../branch.js/swiper.min.js"></script>
+<script type="text/javascript" src="../branch.js/slide_slick.js"></script>
+<script type="text/javascript" src="../branch.js/jquery.mCustomScrollbar.js"></script>
+<script type="text/javascript" src="../branch.js/jquery.counter.js"></script>
+<script type="text/javascript" src="../branch.js/branch.cmd.js"></script>
+<!-- //script(slide) -->
+<script type="text/javascript" src="../branch.js/jquery.placeholder.min.js"></script>
+<script>
+$(function(){
+	// Invoke the plugin
+	$('input, textarea').placeholder({customClass:'my-placeholder'});
+});
+</script>
+</head>
+
+<body>
+
+<!-- wrap -->
+<div class="wrap">
+
+	<!-- header -->
+	<div class="header">
+		<div class="header_inner cboth">
+			 <!-- logo -->
+			<div class="flt">
+				<a href="#none" title="branch 홈으로 바로가기" class="logo"><h1 class="blind">branch</h1></a>
+			</div>
+			<!-- //logo -->
+			<div class="frt gnb_nav">
+				<ul class="cboth gnb_menu">
+					<li><a href="#none">브랜치</a></li>
+					<li><a href="#none">ERP연계</a></li>
+					<li><a href="#none">스토어</a></li>
+					<li class="mgl20 active"><a href="#none" >소식</a></li>
+				</ul>
+				<span class="ani"></span>
+			</div>
+		</div>
+		<!-- progressbar -->
+		<div class="progressbar" style="width:0%;"></div>
+		<!-- //progressbar -->
+	</div>
+	<!-- // header -->
+
+	<!-- sub page banner -->
+	<div class="sub_page_banner banner4000">
+		<div class="sub_page_innter">
+			<div class="make_center">
+				<div class="tit_wrap">
+					<h2 class="tit_h2">
+						소식
+					</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //sub page banner -->
+
+	<hr>
+
+	<!-- container -->
+	<div class="container">
+		<!-- section -->
+		<div class="sect last">
+			<!-- content -->
+			<div class="content">
+				<div class="tit_wrap mgb70">
+					<h3 class="tit_h3">
+						소식
+					</h3>
+				</div>
+				<div id="tab_func2">
+					<!-- tab_wrap2 -->
+					<!-- [D]게시판 2개일 경우 class="tabs_2", 3개일 경우 class="tabs_3, 4개일 경우 class="tabs_4, 5개일 경우 class="tabs_5", 6개일 경우 class="tabs_6" : (modify)20190719 -->
+					<div class="tab_wrap2 tabs_6 mgb50">
+						<div class="tab_wrap_inner tabHead">
+							<div class="tab tabNode on"><a href="#none" onClick="javascript:void(0)"><span>가입현황</span></a></div>
+							<div class="tab tabNode"><a href="#none" onClick="javascript:void(0)"><span>도입사례</span></a></div>
+							<div class="tab tabNode"><a href="#none" onClick="javascript:void(0)"><span>연계현황</span></a></div>
+							<div class="tab tabNode"><a href="#none" onClick="javascript:void(0)"><span>연계사례</span></a></div>
+							<div class="tab tabNode"><a href="#none" onClick="javascript:void(0)"><span>상품소식</span></a></div>
+							<div class="tab tabNode"><a href="#none" onClick="javascript:void(0)"><span>스토어 게시판</span></a></div>
+						</div>
+					</div>
+					<!-- //tab_wrap2 -->
+					<div class="tabBody">
+						<!-- 가입현황 -->
+						<div class="tab_cnt_wrap">
+							<div class="tit_wrap srch_board_box">
+								<!-- 검색 -->
+								<div class="srch_area2 cboth">
+									<label for="BSEARCH1" class="blind">검색</label><input type="text" id="BSEARCH1" placeholder="검색어를 입력하세요" style="width:204px;">
+									<a href="#none" class="btn_srch2">검색</a>
+								</div>
+								<!-- //검색 -->
+							</div>
+
+							<!-- table_list -->
+							<div class="tbl_lst2">
+								<table summary="">
+									<caption></caption>
+									<colgroup>
+									<col style="width:114px;">
+									<col>
+									<col style="width:114px;">
+									<col style="width:164px;">
+									</colgroup>
+									<thead>
+										<tr>
+											<th><div>번호</div></th>
+											<th><div>제목</div></th>
+											<th><div>업종</div></th>
+											<th><div>연계일자</div></th>
+										</tr>
+									</thead>
+									<!-- [D]등록된내용이없을때 -->
+									<tfoot style="display:none;">
+										<tr>
+											<td colspan="4" style="height:499px;">
+												<div class="nmsg tac">
+													등록(검색)된 내용이 없습니다.
+												</div>
+											</td>
+										</tr>
+									</tfoot>
+									<!-- //[D]등록된내용이없을때 -->
+									<!-- [D]검색결과없을때 -->
+									<tfoot style="display:none;">
+										<tr>
+											<td colspan="4" style="height:499px;">
+												<div class="nmsg tac">
+													"검색결과가 없습니다."<br>
+													찾으시는 상품이 없는 경우에는 기타 문의 탭에서 문의사항을 남겨주세요.
+												</div>
+											</td>
+										</tr>
+									</tfoot>
+									<!-- //[D]검색결과없을때 -->
+									<tbody>
+										<tr>
+											<td><div class="txt1 num">5016</div></td>
+											<td><div class="txt2 noLink tx_ellipsis" title="">㈜유니온씨티에서 브랜치를 가입하셨습니다.</div></td>
+											<td><div class="tac tx_ellipsis">제조</div></td>
+											<td><div class="date">2018-00-00</div></td>
+										</tr>
+										<tr>
+											<td><div class="txt1 num">5015</div></td>
+											<td><div class="txt2 noLink tx_ellipsis" title="">재단법인 자동차손해배상진흥원에서 브랜치를 가입하셨습니다.</div></td>
+											<td><div class="tac tx_ellipsis">비영리</div></td>
+											<td><div class="date">2018-00-00</div></td>
+										</tr>
+										<tr>
+											<td><div class="txt1 num">5014</div></td>
+											<td><div class="txt2 noLink tx_ellipsis" title="">라미드에이치엠㈜에서 브랜치를 가입하셨습니다.</div></td>
+											<td><div class="tac tx_ellipsis">서비스</div></td>
+											<td><div class="date">2018-00-00</div></td>
+										</tr>
+										<tr>
+											<td><div class="txt1 num">5013</div></td>
+											<td><div class="txt2 noLink tx_ellipsis" title="">㈜바이오피드백에서 브랜치를 가입하셨습니다.</div></td>
+											<td><div class="tac tx_ellipsis">서비스</div></td>
+											<td><div class="date">2018-00-00</div></td>
+										</tr>
+										<tr>
+											<td><div class="txt1 num">5012</div></td>
+											<td><div class="txt2 noLink tx_ellipsis" title="">라이드송도호텔㈜에서 브랜치를 가입하셨습니다.</div></td>
+											<td><div class="tac tx_ellipsis">서비스</div></td>
+											<td><div class="date">2018-00-00</div></td>
+										</tr>
+										<tr>
+											<td><div class="txt1 num">5011</div></td>
+											<td><div class="txt2 noLink tx_ellipsis" title="">㈜바이오컨트리클럽에서 브랜치를 가입하셨습니다.</div></td>
+											<td><div class="tac tx_ellipsis">서비스</div></td>
+											<td><div class="date">2018-00-00</div></td>
+										</tr>
+										<tr>
+											<td><div class="txt1 num">5010</div></td>
+											<td><div class="txt2 noLink tx_ellipsis" title="">㈜한국테크넷에서 브랜치를 가입하셨습니다.</div></td>
+											<td><div class="tac tx_ellipsis">서비스</div></td>
+											<td><div class="date">2018-00-00</div></td>
+										</tr>
+										<tr>
+											<td><div class="txt1 num">5009</div></td>
+											<td><div class="txt2 noLink tx_ellipsis" title="">㈜성광유니텍에서 브랜치를 가입하셨습니다.</div></td>
+											<td><div class="tac tx_ellipsis">제조</div></td>
+											<td><div class="date">2018-00-00</div></td>
+										</tr>
+										<tr>
+											<td><div class="txt1 num">5008</div></td>
+											<td><div class="txt2 noLink tx_ellipsis" title="">케이피아이㈜에서 브랜치를 가입하셨습니다.</div></td>
+											<td><div class="tac tx_ellipsis">제조</div></td>
+											<td><div class="date">2018-00-00</div></td>
+										</tr>
+										<tr>
+											<td><div class="txt1 num">5007</div></td>
+											<td><div class="txt2 noLink tx_ellipsis" title="">㈜남성전자에서 브랜치를 가입하셨습니다.</div></td>
+											<td><div class="tac tx_ellipsis">도소매</div></td>
+											<td><div class="date">2018-00-00</div></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<!-- //table_list -->
+
+							<!-- pagination_type1 -->
+							<div class="paging type1 mgt40">
+								<a href="#none" class="btn_pag_cntr first"><span class="blind">first</span></a>
+								<a href="#none" class="btn_pag_cntr prev"><span class="blind">previous</span></a>
+								<span class="pag_num">
+									<a href="#none" class="on">1</a><a href="#none">2</a><a href="#none">3</a><a href="#none">4</a><a href="#none">5</a><a href="#none">6</a><a href="#none">7</a><a href="#none">8</a><a href="#none">9</a><a href="#none">10</a>
+								</span>
+								<a href="#none" class="btn_pag_cntr next on"><span class="blind">next</span></a>
+								<a href="#none" class="btn_pag_cntr last"><span class="blind">last</span></a>
+							</div>
+							<!-- //pagination_type1 -->
+						</div>
+						<!-- //가입현황 -->
+
+						<!-- 도입사례 -->
+						<div class="tab_cnt_wrap">
+							<div class="tit_wrap srch_board_box">
+								<!-- 검색 -->
+								<div class="srch_area2 cboth">
+									<label for="BSEARCH3" class="blind">검색</label><input type="text" id="BSEARCH3" placeholder="검색어를 입력하세요" style="width:204px;">
+									<a href="#none" class="btn_srch2">검색</a>
+								</div>
+								<!-- //검색 -->
+							</div>
+
+							<!-- table_list -->
+							<div class="tbl_lst2">
+								<table summary="">
+									<caption></caption>
+									<colgroup>
+									<col style="width:114px;">
+									<col>
+									<col style="width:124px;"><!-- (modify)20181026 -->
+									<col style="width:114px;">
+									</colgroup>
+									<thead>
+										<tr>
+											<th><div>번호</div></th>
+											<th><div>제목</div></th>
+											<th><div class="tac">ERP종류</div></th>
+											<th><div class="tac">조회</div></th>
+										</tr>
+									</thead>
+									<!-- [D]등록된내용이없을때 -->
+									<tfoot style="display:none;">
+										<tr>
+											<td colspan="4" style="height:499px;"><!-- (modify)20181026 -->
+												<div class="nmsg tac">
+													등록(검색)된 내용이 없습니다.
+												</div>
+											</td>
+										</tr>
+									</tfoot>
+									<!-- //[D]등록된내용이없을때 -->
+									<!-- [D]검색결과없을때 -->
+									<tfoot style="display:none;">
+										<tr>
+											<td colspan="4" style="height:499px;"><!-- (modify)20181026 -->
+												<div class="nmsg tac">
+													"검색결과가 없습니다."<br>
+													찾으시는 상품이 없는 경우에는 기타 문의 탭에서 문의사항을 남겨주세요.
+												</div>
+											</td>
+										</tr>
+									</tfoot>
+									<!-- //[D]검색결과없을때 -->
+									<tbody>
+										<tr class="noactive">
+											<tr class="noactive">
+											<td><div class="txt1 num">361</div></td>
+											<td><div class="txt2"><a href="#none">도입사례 OOOOO 제목입니다</a></div></td>
+											<td><div class="date">더존i-U</div></td>
+											<td><div class="tac">999</div></td>
+										</tr>
+										<tr class="detail_board">
+											<td colspan="4">
+												<div class="area_board">
+													<ul class="txt_lst">
+														<li>- 고객 : <span>OO물산</span></li>
+														<li>- 업종 : <span>섬유수출</span></li>
+														<li>- ERP 종류 : <span>SAP</span></li>
+														<li>- ERP 업체 : <span>비젠트로</span></li>
+													</ul>
+													<p>
+														<img src="../branch.img/fcn/banner2000.png" alt="thumb"><br>
+														외화거래내역과 환율 연계로 원화 환산 시재관리가 빠르고 정확해졌습니다.<br>
+														Q 연계 이전의 어려움은?<br>
+														기존에는 담당자가 아침마다 은행 뱅킹의 최초 고시환율을 확인한 후 외화계좌 보유 은행 인터넷뱅킹에 각각 로그인하여 거래내역을 확인하고 수기로 ERP시스템에 입력하느라 시간이 많이 소요되고 변화하는 환율 정보를 매번 입력하는 과정에서 잘못 입력하는 경우도 많았습니다.<br>
+														Q. 연계 후 어떤 점이 좋아졌나요?<br>
+														외화계좌의 거래내역을 자동으로 회계시스템으로 연계하여 회계전표 자료로 이용하고 통화별 환율을 자동으로 조회하여 ERP에 연계하므로 오·입력 없이 빠르고 정확하게 기준환율을 반영하게 되었음. 이로 인해 원화환산시재와 외환차손익 관리가 빠르고 정확해졌습니다.
+													</p>
+												</div>
+											</td>
+										</tr>
+										<tr class="noactive">
+											<td><div class="txt1 num">360</div></td>
+											<td><div class="txt2"><a href="#none">도입사례 OOOOO 제목입니다</a></div></td>
+											<td><div class="date">SAP</div></td>
+											<td><div class="tac">999</div></td>
+										</tr>
+										<tr class="detail_board">
+											<td colspan="4">
+												<div class="area_board">
+													<!--<ul class="txt_lst">
+														<li>- 고객 : <span>OO물산</span></li>
+														<li>- 업종 : <span>섬유수출</span></li>
+														<li>- ERP 종류 : <span>SAP</span></li>
+														<li>- ERP 업체 : <span>비젠트로</span></li>
+													</ul>-->
+													<p>
+														<!--<img src="../branch.img/fcn/banner2000.png" alt="thumb"><br>-->
+														외화거래내역과 환율 연계로 원화 환산 시재관리가 빠르고 정확해졌습니다.<br>
+														Q 연계 이전의 어려움은?<br>
+														기존에는 담당자가 아침마다 은행 뱅킹의 최초 고시환율을 확인한 후 외화계좌 보유 은행 인터넷뱅킹에 각각 로그인하여 거래내역을 확인하고 수기로 ERP시스템에 입력하느라 시간이 많이 소요되고 변화하는 환율 정보를 매번 입력하는 과정에서 잘못 입력하는 경우도 많았습니다.<br>
+														Q. 연계 후 어떤 점이 좋아졌나요?<br>
+														외화계좌의 거래내역을 자동으로 회계시스템으로 연계하여 회계전표 자료로 이용하고 통화별 환율을 자동으로 조회하여 ERP에 연계하므로 오·입력 없이 빠르고 정확하게 기준환율을 반영하게 되었음. 이로 인해 원화환산시재와 외환차손익 관리가 빠르고 정확해졌습니다.
+													</p>
+												</div>
+											</td>
+										</tr>
+										<tr class="noactive">
+											<td><div class="txt1 num">359</div></td>
+											<td><div class="txt2"><a href="#none">도입사례 OOOOO 제목입니다</a></div></td>
+											<td><div class="date">오라클</div></td>
+											<td><div class="tac">999</div></td>
+										</tr>
+										<tr class="detail_board">
+											<td colspan="4">
+												<div class="area_board">
+													<!--<ul class="txt_lst">
+														<li>- 고객 : <span>OO물산</span></li>
+														<li>- 업종 : <span>섬유수출</span></li>
+														<li>- ERP 종류 : <span>SAP</span></li>
+														<li>- ERP 업체 : <span>비젠트로</span></li>
+													</ul>-->
+													<p>
+														<img src="../branch.img/point/banner3000.png" alt="">
+													</p>
+												</div>
+											</td>
+										</tr>
+										<tr class="noactive">
+											<td><div class="txt1 num">358</div></td>
+											<td><div class="txt2"><a href="#none">도입사례 OOOOO 제목입니다</a></div></td>
+											<td><div class="date">더존i-U</div></td>
+											<td><div class="tac">999</div></td>
+										</tr>
+										<tr class="detail_board">
+											<td colspan="4">
+												<div class="area_board">
+													<ul class="txt_lst">
+														<li>- 고객 : <span>OO물산</span></li>
+														<li>- 업종 : <span>섬유수출</span></li>
+														<li>- ERP 종류 : <span>SAP</span></li>
+														<li>- ERP 업체 : <span>비젠트로</span></li>
+													</ul>
+												</div>
+											</td>
+										</tr>
+										<tr class="noactive">
+											<td><div class="txt1 num">357</div></td>
+											<td><div class="txt2"><a href="#none">도입사례 OOOOO 제목입니다</a></div></td>
+											<td><div class="date">더존i-U</div></td>
+											<td><div class="tac">999</div></td>
+										</tr>
+										<tr class="detail_board">
+											<td colspan="4">
+												<div class="area_board">
+													<ul class="txt_lst">
+														<li>- 고객 : <span>OO물산</span></li>
+														<li>- 업종 : <span>섬유수출</span></li>
+														<li>- ERP 종류 : <span>SAP</span></li>
+														<li>- ERP 업체 : <span>비젠트로</span></li>
+													</ul>
+												</div>
+											</td>
+										</tr>
+										<tr class="noactive">
+											<td><div class="txt1 num">356</div></td>
+											<td><div class="txt2"><a href="#none">도입사례 OOOOO 제목입니다</a></div></td>
+											<td><div class="date">더존i-U</div></td>
+											<td><div class="tac">999</div></td>
+										</tr>
+										<tr class="detail_board">
+											<td colspan="4">
+												<div class="area_board">
+													<ul class="txt_lst">
+														<li>- 고객 : <span>OO물산</span></li>
+														<li>- 업종 : <span>섬유수출</span></li>
+														<li>- ERP 종류 : <span>SAP</span></li>
+														<li>- ERP 업체 : <span>비젠트로</span></li>
+													</ul>
+												</div>
+											</td>
+										</tr>
+										<tr class="noactive">
+											<td><div class="txt1 num">355</div></td>
+											<td><div class="txt2"><a href="#none">도입사례 OOOOO 제목입니다</a></div></td>
+											<td><div class="date">더존i-U</div></td>
+											<td><div class="tac">999</div></td>
+										</tr>
+										<tr class="detail_board">
+											<td colspan="4">
+												<div class="area_board">
+													<ul class="txt_lst">
+														<li>- 고객 : <span>OO물산</span></li>
+														<li>- 업종 : <span>섬유수출</span></li>
+														<li>- ERP 종류 : <span>SAP</span></li>
+														<li>- ERP 업체 : <span>비젠트로</span></li>
+													</ul>
+												</div>
+											</td>
+										</tr>
+										<tr class="noactive">
+											<td><div class="txt1 num">354</div></td>
+											<td><div class="txt2"><a href="#none">도입사례 OOOOO 제목입니다</a></div></td>
+											<td><div class="date">더존i-U</div></td>
+											<td><div class="tac">999</div></td>
+										</tr>
+										<tr class="detail_board">
+											<td colspan="4">
+												<div class="area_board">
+													<ul class="txt_lst">
+														<li>- 고객 : <span>OO물산</span></li>
+														<li>- 업종 : <span>섬유수출</span></li>
+														<li>- ERP 종류 : <span>SAP</span></li>
+														<li>- ERP 업체 : <span>비젠트로</span></li>
+													</ul>
+												</div>
+											</td>
+										</tr>
+										<tr class="noactive">
+											<td><div class="txt1 num">353</div></td>
+											<td><div class="txt2"><a href="#none">도입사례 OOOOO 제목입니다</a></div></td>
+											<td><div class="date">더존i-U</div></td>
+											<td><div class="tac">999</div></td>
+										</tr>
+										<tr class="detail_board">
+											<td colspan="4">
+												<div class="area_board">
+													<ul class="txt_lst">
+														<li>- 고객 : <span>OO물산</span></li>
+														<li>- 업종 : <span>섬유수출</span></li>
+														<li>- ERP 종류 : <span>SAP</span></li>
+														<li>- ERP 업체 : <span>비젠트로</span></li>
+													</ul>
+												</div>
+											</td>
+										</tr>
+										<tr class="noactive">
+											<td><div class="txt1 num">352</div></td>
+											<td><div class="txt2"><a href="#none">도입사례 OOOOO 제목입니다</a></div></td>
+											<td ><div class="date">더존i-U</div></td>
+											<td><div class="tac">999</div></td>
+										</tr>
+										<tr class="detail_board">
+											<td colspan="4">
+												<div class="area_board">
+													<ul class="txt_lst">
+														<li>- 고객 : <span>OO물산</span></li>
+														<li>- 업종 : <span>섬유수출</span></li>
+														<li>- ERP 종류 : <span>SAP</span></li>
+														<li>- ERP 업체 : <span>비젠트로</span></li>
+													</ul>
+												</div>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<!-- //table_list -->
+
+							<!-- pagination_type1 -->
+							<div class="paging type1 mgt40">
+								<a href="#none" class="btn_pag_cntr first"><span class="blind">first</span></a>
+								<a href="#none" class="btn_pag_cntr prev"><span class="blind">previous</span></a>
+								<span class="pag_num">
+									<a href="#none" class="on">1</a><a href="#none">2</a><a href="#none">3</a><a href="#none">4</a><a href="#none">5</a><a href="#none">6</a><a href="#none">7</a><a href="#none">8</a><a href="#none">9</a><a href="#none">10</a>
+								</span>
+								<a href="#none" class="btn_pag_cntr next on"><span class="blind">next</span></a>
+								<a href="#none" class="btn_pag_cntr last"><span class="blind">last</span></a>
+							</div>
+							<!-- //pagination_type1 -->
+						</div>
+						<!-- //도입사례 -->
+
+						<!-- 연계현황 -->
+						<div class="tab_cnt_wrap">
+							<div class="tit_wrap srch_board_box">
+								<!-- 검색 -->
+								<div class="srch_area2 cboth">
+									<label for="BSEARCH2" class="blind">검색</label><input type="text" id="BSEARCH2" placeholder="검색어를 입력하세요" style="width:204px;">
+									<a href="#none" class="btn_srch2">검색</a>
+								</div>
+								<!-- //검색 -->
+							</div>
+
+							<div>
+								<table summary="" style="width:100%;">
+									<tbody>
+										<tr>
+											<td style="vertical-align:top;">
+												<!-- table_list -->
+												<div class="tbl_lst2">
+													<table summary="">
+														<caption></caption>
+														<colgroup>
+														<col style="width:114px;">
+														<col>
+														<col style="width:114px;">
+														<col style="width:124px;"><!-- (modify)20181026 -->
+														<col style="width:124px;"><!-- (modify)20181026 -->
+														<col style="width:164px;">
+														</colgroup>
+														<thead>
+															<tr>
+																<th><div>번호</div></th>
+																<th><div>기업명</div></th>
+																<th><div>업종</div></th>
+																<th><div>ERP업체</div></th>
+																<th><div>ERP종류</div></th>
+																<th><div>연계일자</div></th>
+															</tr>
+														</thead>
+														<!-- [D]등록된내용이없을때 -->
+														<tfoot style="display:none;">
+															<tr>
+																<td colspan="6" style="height:499px;"><!-- (modify)20181026 -->
+																	<div class="nmsg tac">
+																		등록(검색)된 내용이 없습니다.
+																	</div>
+																</td>
+															</tr>
+														</tfoot>
+														<!-- //[D]등록된내용이없을때 -->
+														<!-- [D]검색결과없을때 -->
+														<tfoot style="display:none;">
+															<tr>
+																<td colspan="6" style="height:499px;"><!-- (modify)20181026 -->
+																	<div class="nmsg tac">
+																		"검색결과가 없습니다."<br>
+																		찾으시는 상품이 없는 경우에는 기타 문의 탭에서 문의사항을 남겨주세요.
+																	</div>
+																</td>
+															</tr>
+														</tfoot>
+														<!-- //[D]검색결과없을때 -->
+														<tbody>
+															<tr>
+																<td><div class="txt1 num">260</div></td>
+																<td><div class="txt2 noLink" title="">(주)포스코아이씨티</div></td>
+																<td><div class="tac tx_ellipsis"></div></td><!-- (modify)20181026 -->
+																<td><div class="tac tx_ellipsis">오라클</div></td><!-- (modify)20181026 -->
+																<td><div class="tac tx_ellipsis">오라클ERP</div></td><!-- (modify)20181026 -->
+																<td><div class="date">2018-00-00</div></td>
+															</tr>
+															<tr>
+																<td><div class="txt1 num">259</div></td>
+																<td><div class="txt2 noLink" title="">(주)케이티이엔지코어</div></td>
+																<td><div class="tac tx_ellipsis"></div></td><!-- (modify)20181026 -->
+																<td><div class="tac tx_ellipsis">오라클</div></td><!-- (modify)20181026 -->
+																<td><div class="tac tx_ellipsis">오라클ERP</div></td><!-- (modify)20181026 -->
+																<td><div class="date">2018-00-00</div></td>
+															</tr>
+															<tr>
+																<td><div class="txt1 num">258</div></td>
+																<td><div class="txt2 noLink" title="">쿠쿠홀딩스주식회사</div></td>
+																<td><div class="tac tx_ellipsis"></div></td><!-- (modify)20181026 -->
+																<td><div class="tac tx_ellipsis">영림원소프트랩</div></td><!-- (modify)20181026 -->
+																<td><div class="tac tx_ellipsis">K-System Genuine</div></td><!-- (modify)20181026 -->
+																<td><div class="date">2018-00-00</div></td>
+															</tr>
+															<tr>
+																<td><div class="txt1 num">257</div></td>
+																<td><div class="txt2 noLink" title="">주)포스코아이씨티</div></td>
+																<td><div class="tac tx_ellipsis"></div></td><!-- (modify)20181026 -->
+																<td><div class="tac tx_ellipsis"></div></td><!-- (modify)20181026 -->
+
+																<td><div class="tac tx_ellipsis"></div></td><!-- (modify)20181026 -->
+																<td><div class="date">2018-00-00</div></td>
+															</tr>
+															<tr>
+																<td><div class="txt1 num">256</div></td>
+																<td><div class="txt2 noLink" title="">(주)케이티이엔지코어</div></td>
+																<td><div class="tac tx_ellipsis"></div></td><!-- (modify)20181026 -->
+																<td><div class="tac tx_ellipsis"></div></td><!-- (modify)20181026 -->
+																<td><div class="tac tx_ellipsis"></div></td><!-- (modify)20181026 -->
+																<td><div class="date">2018-00-00</div></td>
+															</tr>
+															<tr>
+																<td><div class="txt1 num">255</div></td>
+																<td><div class="txt2 noLink" title="">쿠쿠홀딩스주식회사</div></td>
+																<td><div class="tac tx_ellipsis"></div></td><!-- (modify)20181026 -->
+																<td><div class="tac tx_ellipsis"></div></td><!-- (modify)20181026 -->
+																<td><div class="tac tx_ellipsis"></div></td><!-- (modify)20181026 -->
+																<td><div class="date">2018-00-00</div></td>
+															</tr>
+															<tr>
+																<td><div class="txt1 num">254</div></td>
+																<td><div class="txt2 noLink" title="">(주)포스코아이씨티</div></td>
+																<td><div class="tac tx_ellipsis"></div></td><!-- (modify)20181026 -->
+																<td><div class="tac tx_ellipsis"></div></td><!-- (modify)20181026 -->
+																<td><div class="tac tx_ellipsis"></div></td><!-- (modify)20181026 -->
+																<td><div class="date">2018-00-00</div></td>
+															</tr>
+															<tr>
+																<td><div class="txt1 num">253</div></td>
+																<td><div class="txt2 noLink" title="">(주)케이티이엔지코어</div></td>
+																<td><div class="tac tx_ellipsis"></div></td><!-- (modify)20181026 -->
+																<td><div class="tac tx_ellipsis"></div></td><!-- (modify)20181026 -->
+																<td><div class="tac tx_ellipsis"></div></td><!-- (modify)20181026 -->
+																<td><div class="date">2018-00-00</div></td>
+															</tr>
+															<tr>
+																<td><div class="txt1 num">252</div></td>
+																<td><div class="txt2 noLink" title="">쿠쿠홀딩스주식회사</div></td>
+																<td><div class="tac tx_ellipsis"></div></td><!-- (modify)20181026 -->
+																<td><div class="tac tx_ellipsis"></div></td><!-- (modify)20181026 -->
+																<td><div class="tac tx_ellipsis"></div></td><!-- (modify)20181026 -->
+																<td><div class="date">2018-00-00</div></td>
+															</tr>
+															<tr>
+																<td><div class="txt1 num">251</div></td>
+																<td><div class="txt2 noLink" title="">(주)포스코이씨</div></td>
+																<td><div class="tac tx_ellipsis"></div></td><!-- (modify)20181026 -->
+																<td><div class="tac tx_ellipsis"></div></td><!-- (modify)20181026 -->
+																<td><div class="tac tx_ellipsis"></div></td><!-- (modify)20181026 -->
+																<td><div class="date">2018-00-00</div></td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<!-- //table_list -->
+
+												<!-- pagination_type1 -->
+												<div class="paging type1 mgt40">
+													<a href="#none" class="btn_pag_cntr first"><span class="blind">first</span></a>
+													<a href="#none" class="btn_pag_cntr prev"><span class="blind">previous</span></a>
+													<span class="pag_num">
+														<a href="#none" class="on">1</a><a href="#none">2</a><a href="#none">3</a><a href="#none">4</a><a href="#none">5</a><a href="#none">6</a><a href="#none">7</a><a href="#none">8</a><a href="#none">9</a><a href="#none">10</a>
+													</span>
+													<a href="#none" class="btn_pag_cntr next on"><span class="blind">next</span></a>
+													<a href="#none" class="btn_pag_cntr last"><span class="blind">last</span></a>
+												</div>
+												<!-- //pagination_type1 -->
+											</td>
+											<td style="width:40px;"></td>
+											<td style="width:240px;vertical-align:top;">
+												<!-- branch_news_srch_option -->
+												<div class="branch_news_srch_opt scrollbar_srch_style" style="height:518px;">
+													<!-- (modify)20181025 -->
+													<ul>
+														<li><a href="#none" class="on">세일포스</a></li><!-- [D]선택일 경우 class="on" 추가 -->
+														<li><a href="#none">스카이씨엔에스</a></li>
+														<li><a href="#none">씨아이피시스템</a></li>
+														<li><a href="#none">아란테크</a></li>
+														<li><a href="#none">아이티메이트</a></li>
+														<li><a href="#none">얼마예요</a></li>
+														<li><a href="#none">엑스퍼트솔루션</a></li>
+														<li><a href="#none">영림원소프트랩</a></li>
+														<li><a href="#none">오라클</a></li>
+														<li><a href="#none">와우솔루션</a></li>
+														<li><a href="#none">우신인포텍</a></li>
+														<li><a href="#none">이든비즈텍</a></li>
+														<li><a href="#none">이맥스</a></li>
+														<li><a href="#none">이카운트</a></li>
+														<li><a href="#none">인버스</a></li>
+														<li><a href="#none">인성정보</a></li>
+														<li><a href="#none">(주)클라이맥스</a></li>
+														<li><a href="#none">중외정보기술</a></li>
+														<li><a href="#none">지엠피정보기술</a></li>
+														<li><a href="#none">카리스마아이텍</a></li>
+														<li><a href="#none">큐솔루션</a></li>
+														<li><a href="#none">크리스피드</a></li>
+														<li><a href="#none">토마토시스템</a></li>
+														<li><a href="#none">포렌</a></li>
+														<li><a href="#none">하우리아아티</a></li>
+														<li><a href="#none">하이네트</a></li>
+														<li><a href="#none">한솔정보</a></li>
+														<li><a href="#none">한화S&amp;C</a></li>
+														<li><a href="#none">현대오토에버</a></li>
+														<li><a href="#none">혜능시스템</a></li>
+													</ul>
+													<!-- //(modify)20181025 -->
+												</div>
+												<!-- //branch_news_srch_option -->
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						<!-- //연계현황 -->
+
+						<!-- 연계사례 -->
+						<div class="tab_cnt_wrap">
+							<div class="tit_wrap srch_board_box">
+								<!-- 검색 -->
+								<div class="srch_area2 cboth">
+									<label for="BSEARCH3" class="blind">검색</label><input type="text" id="BSEARCH3" placeholder="검색어를 입력하세요" style="width:204px;">
+									<a href="#none" class="btn_srch2">검색</a>
+								</div>
+								<!-- //검색 -->
+							</div>
+
+							<!-- table_list -->
+							<div class="tbl_lst2">
+								<table summary="">
+									<caption></caption>
+									<colgroup>
+									<col style="width:114px;">
+									<col>
+									<col style="width:124px;"><!-- (modify)20181026 -->
+									<col style="width:114px;">
+									</colgroup>
+									<thead>
+										<tr>
+											<th><div>번호</div></th>
+											<th><div>제목</div></th>
+											<th><div class="tac">ERP종류</div></th>
+											<th><div class="tac">조회</div></th>
+										</tr>
+									</thead>
+									<!-- [D]등록된내용이없을때 -->
+									<tfoot style="display:none;">
+										<tr>
+											<td colspan="4" style="height:499px;"><!-- (modify)20181026 -->
+												<div class="nmsg tac">
+													등록(검색)된 내용이 없습니다.
+												</div>
+											</td>
+										</tr>
+									</tfoot>
+									<!-- //[D]등록된내용이없을때 -->
+									<!-- [D]검색결과없을때 -->
+									<tfoot style="display:none;">
+										<tr>
+											<td colspan="4" style="height:499px;"><!-- (modify)20181026 -->
+												<div class="nmsg tac">
+													"검색결과가 없습니다."<br>
+													찾으시는 상품이 없는 경우에는 기타 문의 탭에서 문의사항을 남겨주세요.
+												</div>
+											</td>
+										</tr>
+									</tfoot>
+									<!-- //[D]검색결과없을때 -->
+									<tbody>
+										<tr class="noactive">
+											<tr class="noactive">
+											<td><div class="txt1 num">361</div></td>
+											<td><div class="txt2"><a href="#none">연계사례 OOOOO 제목입니다</a></div></td>
+											<td><div class="date">더존i-U</div></td>
+											<td><div class="tac">999</div></td>
+										</tr>
+										<tr class="detail_board">
+											<td colspan="4">
+												<div class="area_board">
+													<ul class="txt_lst">
+														<li>- 고객 : <span>OO물산</span></li>
+														<li>- 업종 : <span>섬유수출</span></li>
+														<li>- ERP 종류 : <span>SAP</span></li>
+														<li>- ERP 업체 : <span>비젠트로</span></li>
+													</ul>
+													<p>
+														<img src="../branch.img/fcn/banner2000.png" alt="thumb"><br>
+														외화거래내역과 환율 연계로 원화 환산 시재관리가 빠르고 정확해졌습니다.<br>
+														Q 연계 이전의 어려움은?<br>
+														기존에는 담당자가 아침마다 은행 뱅킹의 최초 고시환율을 확인한 후 외화계좌 보유 은행 인터넷뱅킹에 각각 로그인하여 거래내역을 확인하고 수기로 ERP시스템에 입력하느라 시간이 많이 소요되고 변화하는 환율 정보를 매번 입력하는 과정에서 잘못 입력하는 경우도 많았습니다.<br>
+														Q. 연계 후 어떤 점이 좋아졌나요?<br>
+														외화계좌의 거래내역을 자동으로 회계시스템으로 연계하여 회계전표 자료로 이용하고 통화별 환율을 자동으로 조회하여 ERP에 연계하므로 오·입력 없이 빠르고 정확하게 기준환율을 반영하게 되었음. 이로 인해 원화환산시재와 외환차손익 관리가 빠르고 정확해졌습니다.
+													</p>
+												</div>
+											</td>
+										</tr>
+										<tr class="noactive">
+											<td><div class="txt1 num">360</div></td>
+											<td><div class="txt2"><a href="#none">연계사례 OOOOO 제목입니다</a></div></td>
+											<td><div class="date">SAP</div></td>
+											<td><div class="tac">999</div></td>
+										</tr>
+										<tr class="detail_board">
+											<td colspan="4">
+												<div class="area_board">
+													<!--<ul class="txt_lst">
+														<li>- 고객 : <span>OO물산</span></li>
+														<li>- 업종 : <span>섬유수출</span></li>
+														<li>- ERP 종류 : <span>SAP</span></li>
+														<li>- ERP 업체 : <span>비젠트로</span></li>
+													</ul>-->
+													<p>
+														<!--<img src="../branch.img/fcn/banner2000.png" alt="thumb"><br>-->
+														외화거래내역과 환율 연계로 원화 환산 시재관리가 빠르고 정확해졌습니다.<br>
+														Q 연계 이전의 어려움은?<br>
+														기존에는 담당자가 아침마다 은행 뱅킹의 최초 고시환율을 확인한 후 외화계좌 보유 은행 인터넷뱅킹에 각각 로그인하여 거래내역을 확인하고 수기로 ERP시스템에 입력하느라 시간이 많이 소요되고 변화하는 환율 정보를 매번 입력하는 과정에서 잘못 입력하는 경우도 많았습니다.<br>
+														Q. 연계 후 어떤 점이 좋아졌나요?<br>
+														외화계좌의 거래내역을 자동으로 회계시스템으로 연계하여 회계전표 자료로 이용하고 통화별 환율을 자동으로 조회하여 ERP에 연계하므로 오·입력 없이 빠르고 정확하게 기준환율을 반영하게 되었음. 이로 인해 원화환산시재와 외환차손익 관리가 빠르고 정확해졌습니다.
+													</p>
+												</div>
+											</td>
+										</tr>
+										<tr class="noactive">
+											<td><div class="txt1 num">359</div></td>
+											<td><div class="txt2"><a href="#none">연계사례 OOOOO 제목입니다</a></div></td>
+											<td><div class="date">오라클</div></td>
+											<td><div class="tac">999</div></td>
+										</tr>
+										<tr class="detail_board">
+											<td colspan="4">
+												<div class="area_board">
+													<!--<ul class="txt_lst">
+														<li>- 고객 : <span>OO물산</span></li>
+														<li>- 업종 : <span>섬유수출</span></li>
+														<li>- ERP 종류 : <span>SAP</span></li>
+														<li>- ERP 업체 : <span>비젠트로</span></li>
+													</ul>-->
+													<p>
+														<img src="../branch.img/point/banner3000.png" alt="">
+													</p>
+												</div>
+											</td>
+										</tr>
+										<tr class="noactive">
+											<td><div class="txt1 num">358</div></td>
+											<td><div class="txt2"><a href="#none">연계사례 OOOOO 제목입니다</a></div></td>
+											<td><div class="date">더존i-U</div></td>
+											<td><div class="tac">999</div></td>
+										</tr>
+										<tr class="detail_board">
+											<td colspan="4">
+												<div class="area_board">
+													<ul class="txt_lst">
+														<li>- 고객 : <span>OO물산</span></li>
+														<li>- 업종 : <span>섬유수출</span></li>
+														<li>- ERP 종류 : <span>SAP</span></li>
+														<li>- ERP 업체 : <span>비젠트로</span></li>
+													</ul>
+												</div>
+											</td>
+										</tr>
+										<tr class="noactive">
+											<td><div class="txt1 num">357</div></td>
+											<td><div class="txt2"><a href="#none">연계사례 OOOOO 제목입니다</a></div></td>
+											<td><div class="date">더존i-U</div></td>
+											<td><div class="tac">999</div></td>
+										</tr>
+										<tr class="detail_board">
+											<td colspan="4">
+												<div class="area_board">
+													<ul class="txt_lst">
+														<li>- 고객 : <span>OO물산</span></li>
+														<li>- 업종 : <span>섬유수출</span></li>
+														<li>- ERP 종류 : <span>SAP</span></li>
+														<li>- ERP 업체 : <span>비젠트로</span></li>
+													</ul>
+												</div>
+											</td>
+										</tr>
+										<tr class="noactive">
+											<td><div class="txt1 num">356</div></td>
+											<td><div class="txt2"><a href="#none">연계사례 OOOOO 제목입니다</a></div></td>
+											<td><div class="date">더존i-U</div></td>
+											<td><div class="tac">999</div></td>
+										</tr>
+										<tr class="detail_board">
+											<td colspan="4">
+												<div class="area_board">
+													<ul class="txt_lst">
+														<li>- 고객 : <span>OO물산</span></li>
+														<li>- 업종 : <span>섬유수출</span></li>
+														<li>- ERP 종류 : <span>SAP</span></li>
+														<li>- ERP 업체 : <span>비젠트로</span></li>
+													</ul>
+												</div>
+											</td>
+										</tr>
+										<tr class="noactive">
+											<td><div class="txt1 num">355</div></td>
+											<td><div class="txt2"><a href="#none">연계사례 OOOOO 제목입니다</a></div></td>
+											<td><div class="date">더존i-U</div></td>
+											<td><div class="tac">999</div></td>
+										</tr>
+										<tr class="detail_board">
+											<td colspan="4">
+												<div class="area_board">
+													<ul class="txt_lst">
+														<li>- 고객 : <span>OO물산</span></li>
+														<li>- 업종 : <span>섬유수출</span></li>
+														<li>- ERP 종류 : <span>SAP</span></li>
+														<li>- ERP 업체 : <span>비젠트로</span></li>
+													</ul>
+												</div>
+											</td>
+										</tr>
+										<tr class="noactive">
+											<td><div class="txt1 num">354</div></td>
+											<td><div class="txt2"><a href="#none">연계사례 OOOOO 제목입니다</a></div></td>
+											<td><div class="date">더존i-U</div></td>
+											<td><div class="tac">999</div></td>
+										</tr>
+										<tr class="detail_board">
+											<td colspan="4">
+												<div class="area_board">
+													<ul class="txt_lst">
+														<li>- 고객 : <span>OO물산</span></li>
+														<li>- 업종 : <span>섬유수출</span></li>
+														<li>- ERP 종류 : <span>SAP</span></li>
+														<li>- ERP 업체 : <span>비젠트로</span></li>
+													</ul>
+												</div>
+											</td>
+										</tr>
+										<tr class="noactive">
+											<td><div class="txt1 num">353</div></td>
+											<td><div class="txt2"><a href="#none">연계사례 OOOOO 제목입니다</a></div></td>
+											<td><div class="date">더존i-U</div></td>
+											<td><div class="tac">999</div></td>
+										</tr>
+										<tr class="detail_board">
+											<td colspan="4">
+												<div class="area_board">
+													<ul class="txt_lst">
+														<li>- 고객 : <span>OO물산</span></li>
+														<li>- 업종 : <span>섬유수출</span></li>
+														<li>- ERP 종류 : <span>SAP</span></li>
+														<li>- ERP 업체 : <span>비젠트로</span></li>
+													</ul>
+												</div>
+											</td>
+										</tr>
+										<tr class="noactive">
+											<td><div class="txt1 num">352</div></td>
+											<td><div class="txt2"><a href="#none">연계사례 OOOOO 제목입니다</a></div></td>
+											<td ><div class="date">더존i-U</div></td>
+											<td><div class="tac">999</div></td>
+										</tr>
+										<tr class="detail_board">
+											<td colspan="4">
+												<div class="area_board">
+													<ul class="txt_lst">
+														<li>- 고객 : <span>OO물산</span></li>
+														<li>- 업종 : <span>섬유수출</span></li>
+														<li>- ERP 종류 : <span>SAP</span></li>
+														<li>- ERP 업체 : <span>비젠트로</span></li>
+													</ul>
+												</div>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<!-- //table_list -->
+
+							<!-- pagination_type1 -->
+							<div class="paging type1 mgt40">
+								<a href="#none" class="btn_pag_cntr first"><span class="blind">first</span></a>
+								<a href="#none" class="btn_pag_cntr prev"><span class="blind">previous</span></a>
+								<span class="pag_num">
+									<a href="#none" class="on">1</a><a href="#none">2</a><a href="#none">3</a><a href="#none">4</a><a href="#none">5</a><a href="#none">6</a><a href="#none">7</a><a href="#none">8</a><a href="#none">9</a><a href="#none">10</a>
+								</span>
+								<a href="#none" class="btn_pag_cntr next on"><span class="blind">next</span></a>
+								<a href="#none" class="btn_pag_cntr last"><span class="blind">last</span></a>
+							</div>
+							<!-- //pagination_type1 -->
+						</div>
+						<!-- //연계사례 -->
+
+						<!-- 상품소식 -->
+						<div class="tab_cnt_wrap">
+							<div class="tit_wrap srch_board_box">
+								<!-- 검색 -->
+								<div class="srch_area2 cboth">
+									<label for="BSEARCH4" class="blind">검색</label><input type="text" id="BSEARCH4" placeholder="검색어를 입력하세요" style="width:204px;">
+									<a href="#none" class="btn_srch2">검색</a>
+								</div>
+								<!-- //검색 -->
+							</div>
+
+							<!-- table_list -->
+							<div class="tbl_lst2">
+								<table summary="">
+									<caption></caption>
+									<colgroup>
+									<col style="width:114px;">
+									<col>
+									<col style="width:114px;">
+									<col style="width:114px;">
+									</colgroup>
+									<thead>
+										<tr>
+											<th><div>번호</div></th>
+											<th><div>제목</div></th>
+											<th><div class="tac">등록일</div></th>
+											<th><div class="tac">조회</div></th>
+										</tr>
+									</thead>
+									<!-- [D]등록된내용이없을때 -->
+									<tfoot style="display:none;">
+										<tr>
+											<td colspan="4" style="height:499px;"><!-- (modify)20181026 -->
+												<div class="nmsg tac">
+													등록(검색)된 내용이 없습니다.
+												</div>
+											</td>
+										</tr>
+									</tfoot>
+									<!-- //[D]등록된내용이없을때 -->
+									<!-- [D]검색결과없을때 -->
+									<tfoot style="display:none;">
+										<tr>
+											<td colspan="4" style="height:499px;"><!-- (modify)20181026 -->
+												<div class="nmsg tac">
+													"검색결과가 없습니다."<br>
+													찾으시는 상품이 없는 경우에는 기타 문의 탭에서 문의사항을 남겨주세요.
+												</div>
+											</td>
+										</tr>
+									</tfoot>
+									<!-- //[D]검색결과없을때 -->
+									<tbody>
+										<tr class="active">
+											<td><div class="ic_alarm"></div></td>
+											<td><div class="txt2"><a href="#none" class="on">상품 소식 OOOOO 제목입니다</a></div></td>
+											<td><div class="date">2018-00-00</div></td>
+											<td><div class="tac">999</div></td>
+										</tr>
+										<tr class="detail_board">
+											<td colspan="4">
+												<div class="area_board">
+													<p>
+														<img src="../branch.img/fcn/banner2000.png" alt="thumb"><br>
+														외화거래내역과 환율 연계로 원화 환산 시재관리가 빠르고 정확해졌습니다.<br>
+														Q 연계 이전의 어려움은?<br>
+														기존에는 담당자가 아침마다 은행 뱅킹의 최초 고시환율을 확인한 후 외화계좌 보유 은행 인터넷뱅킹에 각각 로그인하여 거래내역을 확인하고 수기로 ERP시스템에 입력하느라 시간이 많이 소요되고 변화하는 환율 정보를 매번 입력하는 과정에서 잘못 입력하는 경우도 많았습니다.<br>
+														Q. 연계 후 어떤 점이 좋아졌나요?<br>
+														외화계좌의 거래내역을 자동으로 회계시스템으로 연계하여 회계전표 자료로 이용하고 통화별 환율을 자동으로 조회하여 ERP에 연계하므로 오·입력 없이 빠르고 정확하게 기준환율을 반영하게 되었음. 이로 인해 원화환산시재와 외환차손익 관리가 빠르고 정확해졌습니다.
+													</p>
+													<!-- (add)20181106 -->
+													<dl class="area_attachment">
+														<dt>[첨부파일]</dt>
+														<dd>
+															<ul>
+																<li><a href="#none">첨부파일명1.pdf</a></li>
+																<!--<li><a href="#none">첨부파일명2.pptx</a></li>-->
+															</ul>
+														</dd>
+													</dl>
+													<!-- //(add)20181106 -->
+												</div>
+											</td>
+										</tr>
+										<tr class="active">
+											<td><div class="ic_alarm"></div></td>
+											<td><div class="txt2"><a href="#none" class="on">상품 소식 OOOOO 제목입니다</a></div></td>
+											<td><div class="date">2018-00-00</div></td>
+											<td><div class="tac">999</div></td>
+										</tr>
+										<tr class="detail_board">
+											<td colspan="4">
+												<div class="area_board">
+													<p>
+														<!--<img src="../branch.img/fcn/banner2000.png" alt="thumb"><br>-->
+														외화거래내역과 환율 연계로 원화 환산 시재관리가 빠르고 정확해졌습니다.<br>
+														Q 연계 이전의 어려움은?<br>
+														기존에는 담당자가 아침마다 은행 뱅킹의 최초 고시환율을 확인한 후 외화계좌 보유 은행 인터넷뱅킹에 각각 로그인하여 거래내역을 확인하고 수기로 ERP시스템에 입력하느라 시간이 많이 소요되고 변화하는 환율 정보를 매번 입력하는 과정에서 잘못 입력하는 경우도 많았습니다.<br>
+														Q. 연계 후 어떤 점이 좋아졌나요?<br>
+														외화계좌의 거래내역을 자동으로 회계시스템으로 연계하여 회계전표 자료로 이용하고 통화별 환율을 자동으로 조회하여 ERP에 연계하므로 오·입력 없이 빠르고 정확하게 기준환율을 반영하게 되었음. 이로 인해 원화환산시재와 외환차손익 관리가 빠르고 정확해졌습니다.
+													</p>
+													<!-- (add)20181106 -->
+													<dl class="area_attachment">
+														<dt>[첨부파일]</dt>
+														<dd>
+															<ul>
+																<li><a href="#none">첨부파일명1.pdf</a></li>
+																<!--<li><a href="#none">첨부파일명2.pptx</a></li>-->
+															</ul>
+														</dd>
+													</dl>
+													<!-- //(add)20181106 -->
+												</div>
+											</td>
+										</tr>
+										<tr class="noactive">
+											<td><div class="txt1 num">359</div></td>
+											<td><div class="txt2"><a href="#none">상품 소식 OOOOO 제목입니다</a></div></td>
+											<td><div class="date">2018-00-00</div></td>
+											<td><div class="tac">999</div></td>
+										</tr>
+										<tr class="detail_board">
+											<td colspan="4">
+												<div class="area_board">
+													<p>
+														<img src="../branch.img/point/banner3000.png" alt="">
+													</p>
+													<!-- (add)20181106 -->
+													<dl class="area_attachment">
+														<dt>[첨부파일]</dt>
+														<dd>
+															<ul>
+																<li><a href="#none">첨부파일명1.pdf</a></li>
+																<!--<li><a href="#none">첨부파일명2.pptx</a></li>-->
+															</ul>
+														</dd>
+													</dl>
+													<!-- //(add)20181106 -->
+												</div>
+											</td>
+										</tr>
+										<tr class="noactive">
+											<td><div class="txt1 num">358</div></td>
+											<td><div class="txt2"><a href="#none">상품 소식 OOOOO 제목입니다</a></div></td>
+											<td><div class="date">2018-00-00</div></td>
+											<td><div class="tac">999</div></td>
+										</tr>
+										<tr class="detail_board">
+											<td colspan="4">
+												<div class="area_board">
+													<p>
+														외화거래내역과 환율 연계로 원화 환산 시재관리가 빠르고 정확해졌습니다.<br>
+														Q 연계 이전의 어려움은?<br>
+														기존에는 담당자가 아침마다 은행 뱅킹의 최초 고시환율을 확인한 후 외화계좌 보유 은행 인터넷뱅킹에 각각 로그인하여 거래내역을 확인하고 수기로 ERP시스템에 입력하느라 시간이 많이 소요되고 변화하는 환율 정보를 매번 입력하는 과정에서 잘못 입력하는 경우도 많았습니다.
+													</p>
+													<!-- (add)20181106 -->
+													<dl class="area_attachment">
+														<dt>[첨부파일]</dt>
+														<dd>
+															<ul>
+																<li><a href="#none">첨부파일명1.pdf</a></li>
+																<!--<li><a href="#none">첨부파일명2.pptx</a></li>-->
+															</ul>
+														</dd>
+													</dl>
+													<!-- //(add)20181106 -->
+												</div>
+											</td>
+										</tr>
+										<tr class="noactive">
+											<td><div class="txt1 num">357</div></td>
+											<td><div class="txt2"><a href="#none">상품 소식 OOOOO 제목입니다</a></div></td>
+											<td><div class="date">2018-00-00</div></td>
+											<td><div class="tac">999</div></td>
+										</tr>
+										<tr class="detail_board">
+											<td colspan="4">
+												<div class="area_board">
+													<p>
+														외화거래내역과 환율 연계로 원화 환산 시재관리가 빠르고 정확해졌습니다.<br>
+														Q 연계 이전의 어려움은?<br>
+														기존에는 담당자가 아침마다 은행 뱅킹의 최초 고시환율을 확인한 후 외화계좌 보유 은행 인터넷뱅킹에 각각 로그인하여 거래내역을 확인하고 수기로 ERP시스템에 입력하느라 시간이 많이 소요되고 변화하는 환율 정보를 매번 입력하는 과정에서 잘못 입력하는 경우도 많았습니다.
+													</p>
+													<!-- (add)20181106 -->
+													<dl class="area_attachment">
+														<dt>[첨부파일]</dt>
+														<dd>
+															<ul>
+																<li><a href="#none">첨부파일명1.pdf</a></li>
+																<!--<li><a href="#none">첨부파일명2.pptx</a></li>-->
+															</ul>
+														</dd>
+													</dl>
+													<!-- //(add)20181106 -->
+												</div>
+											</td>
+										</tr>
+
+										<tr class="noactive">
+											<td><div class="txt1 num">356</div></td>
+											<td><div class="txt2"><a href="#none">상품 소식 OOOOO 제목입니다</a></div></td>
+											<td><div class="date">2018-00-00</div></td>
+											<td><div class="tac">999</div></td>
+										</tr>
+										<tr class="detail_board">
+											<td colspan="4">
+												<div class="area_board">
+													<p>
+														외화거래내역과 환율 연계로 원화 환산 시재관리가 빠르고 정확해졌습니다.<br>
+														Q 연계 이전의 어려움은?<br>
+														기존에는 담당자가 아침마다 은행 뱅킹의 최초 고시환율을 확인한 후 외화계좌 보유 은행 인터넷뱅킹에 각각 로그인하여 거래내역을 확인하고 수기로 ERP시스템에 입력하느라 시간이 많이 소요되고 변화하는 환율 정보를 매번 입력하는 과정에서 잘못 입력하는 경우도 많았습니다.
+													</p>
+													<!-- (add)20181106 -->
+													<dl class="area_attachment">
+														<dt>[첨부파일]</dt>
+														<dd>
+															<ul>
+																<li><a href="#none">첨부파일명1.pdf</a></li>
+																<!--<li><a href="#none">첨부파일명2.pptx</a></li>-->
+															</ul>
+														</dd>
+													</dl>
+													<!-- //(add)20181106 -->
+												</div>
+											</td>
+										</tr>
+										<tr class="noactive">
+											<td><div class="txt1 num">355</div></td>
+											<td><div class="txt2"><a href="#none">상품 소식 OOOOO 제목입니다</a></div></td>
+											<td><div class="date">2018-00-00</div></td>
+											<td><div class="tac">999</div></td>
+										</tr>
+										<tr class="detail_board">
+											<td colspan="4">
+												<div class="area_board">
+													<p>
+														외화거래내역과 환율 연계로 원화 환산 시재관리가 빠르고 정확해졌습니다.<br>
+														Q 연계 이전의 어려움은?<br>
+														기존에는 담당자가 아침마다 은행 뱅킹의 최초 고시환율을 확인한 후 외화계좌 보유 은행 인터넷뱅킹에 각각 로그인하여 거래내역을 확인하고 수기로 ERP시스템에 입력하느라 시간이 많이 소요되고 변화하는 환율 정보를 매번 입력하는 과정에서 잘못 입력하는 경우도 많았습니다.
+													</p>
+													<!-- (add)20181106 -->
+													<dl class="area_attachment">
+														<dt>[첨부파일]</dt>
+														<dd>
+															<ul>
+																<li><a href="#none">첨부파일명1.pdf</a></li>
+																<!--<li><a href="#none">첨부파일명2.pptx</a></li>-->
+															</ul>
+														</dd>
+													</dl>
+													<!-- //(add)20181106 -->
+												</div>
+											</td>
+										</tr>
+										<tr class="noactive">
+											<td><div class="txt1 num">354</div></td>
+											<td><div class="txt2"><a href="#none">상품 소식 OOOOO 제목입니다</a></div></td>
+											<td><div class="date">2018-00-00</div></td>
+											<td><div class="tac">999</div></td>
+										</tr>
+										<tr class="detail_board">
+											<td colspan="4">
+												<div class="area_board">
+													<p>
+														외화거래내역과 환율 연계로 원화 환산 시재관리가 빠르고 정확해졌습니다.<br>
+														Q 연계 이전의 어려움은?<br>
+														기존에는 담당자가 아침마다 은행 뱅킹의 최초 고시환율을 확인한 후 외화계좌 보유 은행 인터넷뱅킹에 각각 로그인하여 거래내역을 확인하고 수기로 ERP시스템에 입력하느라 시간이 많이 소요되고 변화하는 환율 정보를 매번 입력하는 과정에서 잘못 입력하는 경우도 많았습니다.
+													</p>
+													<!-- (add)20181106 -->
+													<dl class="area_attachment">
+														<dt>[첨부파일]</dt>
+														<dd>
+															<ul>
+																<li><a href="#none">첨부파일명1.pdf</a></li>
+																<!--<li><a href="#none">첨부파일명2.pptx</a></li>-->
+															</ul>
+														</dd>
+													</dl>
+													<!-- //(add)20181106 -->
+												</div>
+											</td>
+										</tr>
+										<tr class="noactive">
+											<td><div class="txt1 num">353</div></td>
+											<td><div class="txt2"><a href="#none">상품 소식 OOOOO 제목입니다</a></div></td>
+											<td><div class="date">2018-00-00</div></td>
+											<td><div class="tac">999</div></td>
+										</tr>
+										<tr class="detail_board">
+											<td colspan="4">
+												<div class="area_board">
+													<p>
+														외화거래내역과 환율 연계로 원화 환산 시재관리가 빠르고 정확해졌습니다.<br>
+														Q 연계 이전의 어려움은?<br>
+														기존에는 담당자가 아침마다 은행 뱅킹의 최초 고시환율을 확인한 후 외화계좌 보유 은행 인터넷뱅킹에 각각 로그인하여 거래내역을 확인하고 수기로 ERP시스템에 입력하느라 시간이 많이 소요되고 변화하는 환율 정보를 매번 입력하는 과정에서 잘못 입력하는 경우도 많았습니다.
+													</p>
+													<!-- (add)20181106 -->
+													<dl class="area_attachment">
+														<dt>[첨부파일]</dt>
+														<dd>
+															<ul>
+																<li><a href="#none">첨부파일명1.pdf</a></li>
+																<!--<li><a href="#none">첨부파일명2.pptx</a></li>-->
+															</ul>
+														</dd>
+													</dl>
+													<!-- //(add)20181106 -->
+												</div>
+											</td>
+										</tr>
+										<tr class="noactive">
+											<td><div class="txt1 num">352</div></td>
+											<td><div class="txt2"><a href="#none">상품 소식 OOOOO 제목입니다</a></div></td>
+											<td ><div class="date">2018-00-00</div></td>
+											<td><div class="tac">999</div></td>
+										</tr>
+										<tr class="detail_board">
+											<td colspan="4">
+												<div class="area_board">
+													<p>
+														외화거래내역과 환율 연계로 원화 환산 시재관리가 빠르고 정확해졌습니다.<br>
+														Q 연계 이전의 어려움은?<br>
+														기존에는 담당자가 아침마다 은행 뱅킹의 최초 고시환율을 확인한 후 외화계좌 보유 은행 인터넷뱅킹에 각각 로그인하여 거래내역을 확인하고 수기로 ERP시스템에 입력하느라 시간이 많이 소요되고 변화하는 환율 정보를 매번 입력하는 과정에서 잘못 입력하는 경우도 많았습니다.
+													</p>
+													<!-- (add)20181106 -->
+													<dl class="area_attachment">
+														<dt>[첨부파일]</dt>
+														<dd>
+															<ul>
+																<li><a href="#none">첨부파일명1.pdf</a></li>
+																<!--<li><a href="#none">첨부파일명2.pptx</a></li>-->
+															</ul>
+														</dd>
+													</dl>
+													<!-- //(add)20181106 -->
+												</div>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<!-- //table_list -->
+
+							<!-- pagination_type1 -->
+							<div class="paging type1 mgt40">
+								<a href="#none" class="btn_pag_cntr first"><span class="blind">first</span></a>
+								<a href="#none" class="btn_pag_cntr prev"><span class="blind">previous</span></a>
+								<span class="pag_num">
+									<a href="#none" class="on">1</a><a href="#none">2</a><a href="#none">3</a><a href="#none">4</a><a href="#none">5</a><a href="#none">6</a><a href="#none">7</a><a href="#none">8</a><a href="#none">9</a><a href="#none">10</a>
+								</span>
+								<a href="#none" class="btn_pag_cntr next on"><span class="blind">next</span></a>
+								<a href="#none" class="btn_pag_cntr last"><span class="blind">last</span></a>
+							</div>
+							<!-- //pagination_type1 -->
+						</div>
+						<!-- //상품소식 -->
+
+						<!-- 스토어게시판 -->
+						<div class="tab_cnt_wrap" id="" style="display:none;"><!-- (modify)20181031 -->
+							<div class="tit_wrap srch_board_box">
+								<!-- 검색 -->
+								<div class="srch_area2 cboth">
+									<label for="BSEARCH5" class="blind">검색</label><input type="text" id="BSEARCH5" placeholder="검색어를 입력하세요" style="width:204px;">
+									<a href="#none" class="btn_srch2">검색</a>
+								</div>
+								<!-- //검색 -->
+							</div>
+
+							<!-- table_list -->
+							<div class="tbl_lst2">
+								<table summary="">
+									<caption></caption>
+									<colgroup>
+									<col style="width:114px;">
+									<col>
+									<col style="width:124px;">
+									<col style="width:164px;">
+									</colgroup>
+									<thead>
+										<tr>
+											<th><div>번호</div></th>
+											<th><div>제목</div></th>
+											<th><div>상품</div></th>
+											<th><div>등록일</div></th>
+										</tr>
+									</thead>
+									<!-- [D]등록된내용이없을때 -->
+									<tfoot style="display:none;">
+										<tr>
+											<td colspan="4" style="height:499px;">
+												<div class="nmsg tac">
+													등록(검색)된 내용이 없습니다.
+												</div>
+											</td>
+										</tr>
+									</tfoot>
+									<!-- //[D]등록된내용이없을때 -->
+									<!-- [D]검색결과없을때 -->
+									<tfoot style="display:none;">
+										<tr>
+											<td colspan="4" style="height:499px;">
+												<div class="nmsg tac">
+													"검색결과가 없습니다."<br>
+													찾으시는 상품이 없는 경우에는 기타 문의 탭에서 문의사항을 남겨주세요.
+												</div>
+											</td>
+										</tr>
+									</tfoot>
+									<!-- //[D]검색결과없을때 -->
+									<tbody>
+										<tr>
+											<td><div class="txt1 num">10</div></td>
+											<td><div class="txt2 noLink tx_ellipsis" title="">비즈플레이 경비지출관리 상품이 업데이트 되었습니다.</div></td>
+											<td><div class="tac tx_ellipsis">경비지출관리</div></td>
+											<td><div class="date">2018-00-00</div></td>
+										</tr>
+										<tr>
+											<td><div class="txt1 num">9</div></td>
+											<td><div class="txt2 noLink tx_ellipsis" title="">올택스 상품이 업데이트 되었습니다.</div></td>
+											<td><div class="tac tx_ellipsis">올택스</div></td>
+											<td><div class="date">2018-00-00</div></td>
+										</tr>
+										<tr>
+											<td><div class="txt1 num">8</div></td>
+											<td><div class="txt2 noLink tx_ellipsis" title="">해동무역이 보험증권 계좌관리 상품에 가입하셨습니다</div></td>
+											<td><div class="tac tx_ellipsis">보험증권관리</div></td>
+											<td><div class="date">2018-00-00</div></td>
+										</tr>
+										<tr>
+											<td><div class="txt1 num">7</div></td>
+											<td><div class="txt2 noLink tx_ellipsis" title="">주식회사 성광산업이 보험증권 계좌관리 상품에 가입하셨습니다.</div></td>
+											<td><div class="tac tx_ellipsis">보험증권관리</div></td>
+											<td><div class="date">2018-00-00</div></td>
+										</tr>
+										<tr>
+											<td><div class="txt1 num">6</div></td>
+											<td><div class="txt2 noLink tx_ellipsis" title="">비즈플레이 경비지출관리 상품의 프리미엄 보고서 기능이 업데이트 되었습니다.</div></td>
+											<td><div class="tac tx_ellipsis">경비지출관리</div></td>
+											<td><div class="date">2018-00-00</div></td>
+										</tr>
+										<tr>
+											<td><div class="txt1 num">5</div></td>
+											<td><div class="txt2 noLink tx_ellipsis" title="">대구도시공사 비즈플레이 경비지출관리 상품을 가입하였습니다.</div></td>
+											<td><div class="tac tx_ellipsis">경비지출관리</div></td>
+											<td><div class="date">2018-00-00</div></td>
+										</tr>
+										<tr>
+											<td><div class="txt1 num">4</div></td>
+											<td><div class="txt2 noLink tx_ellipsis" title="">에이스건설이 비즈플레이 경비지출관리 상품을 가입하였습니다.</div></td>
+											<td><div class="tac tx_ellipsis">경비지출관리</div></td>
+											<td><div class="date">2018-00-00</div></td>
+										</tr>
+										<tr>
+											<td><div class="txt1 num">3</div></td>
+											<td><div class="txt2 noLink tx_ellipsis" title="">대한메탈이 비즈플레이 경비지출관리 상품을 가입하였습니다.</div></td>
+											<td><div class="tac tx_ellipsis">경비지출관리</div></td>
+											<td><div class="date">2018-00-00</div></td>
+										</tr>
+										<tr>
+											<td><div class="txt1 num">2</div></td>
+											<td><div class="txt2 noLink tx_ellipsis" title="">비즈플레이 경비지출관리 상품이 업데이트 되었습니다.</div></td>
+											<td><div class="tac tx_ellipsis">경비지출관리</div></td>
+											<td><div class="date">2018-00-00</div></td>
+										</tr>
+										<tr>
+											<td><div class="txt1 num">1</div></td>
+											<td><div class="txt2 noLink tx_ellipsis" title="">해외계좌관리 상품이 업데이트 되었습니다.</div></td>
+											<td><div class="tac tx_ellipsis">해외계좌관리</div></td>
+											<td><div class="date">2018-00-00</div></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<!-- //table_list -->
+
+							<!-- pagination_type1 -->
+							<div class="paging type1 mgt40">
+								<a href="#none" class="btn_pag_cntr first"><span class="blind">first</span></a>
+								<a href="#none" class="btn_pag_cntr prev"><span class="blind">previous</span></a>
+								<span class="pag_num">
+									<a href="#none" class="on">1</a><a href="#none">2</a><a href="#none">3</a><a href="#none">4</a><a href="#none">5</a><a href="#none">6</a><a href="#none">7</a><a href="#none">8</a><a href="#none">9</a><a href="#none">10</a>
+								</span>
+								<a href="#none" class="btn_pag_cntr next on"><span class="blind">next</span></a>
+								<a href="#none" class="btn_pag_cntr last"><span class="blind">last</span></a>
+							</div>
+							<!-- //pagination_type1 -->
+						</div>
+						<!-- //스토어게시판 -->
+					</div>
+				</div>
+			</div>
+			<!-- //content -->
+		</div>
+		<!-- //section -->
+	</div>
+	<!-- //container -->
+
+	<hr>
+
+	<!-- footer -->
+	<div class="footer">
+		<!-- footer menu -->
+		<div class="footer_menu">
+			<div class="footer_menu_inner">
+				<ul class="cboth">
+					<li><a href="https://www.webcash.co.kr/" target="_blank">회사소개</a></li>
+					<li><a href="#none" class="active">개인정보처리방침</a></li>
+					<!--<li><a href="#none">이용약관</a></li>-->
+				</ul>
+			</div>
+		</div>
+		<!--//footer menu -->
+
+		<!-- footer bottom -->
+		<div class="footer_bottom">
+			<div class="footer_bottom_inner">
+				<p class="tx_copyright">Copyright(c) 2018 Webcash corp. All Rights reserved.</p>
+				<div class="footer_logo"><a href="https://www.webcash.co.kr/" target="_blank"><img src="../branch.img/cmd/logo_webcash.png" alt="Webcash"></a></div>
+			</div>
+		</div>
+		<!-- //footer bottom -->
+	</div>
+	<!-- //footer -->
+
+	<hr>
+
+	<!-- (botton)gotoBack --><a href="#none" class="btn_gotoBack"><span class="blind">go to Back</span></a><!-- //(botton)gotoBack -->
+	<!-- (botton)goto -->
+	<div class="bnt_totop_wrap">
+		<!-- (botton)gotoInquire --><a href="#none" class="btn_gotoInquire"><span class="blind">도입문의</span></a><!-- //(botton)gotoInquire -->
+		<!-- (botton)gotoTop --><a href="#none" class="btn_gotoTop"><span class="blind">go to Top</span></a><!-- //(botton)gotoTop -->
+	</div>
+	<!-- //(botton)goto -->
+
+</div>
+<!-- //wrap -->
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+	// scroll style
+	$(function() {
+		/* custom scroll */
+		$('.scrollbar_srch_style').mCustomScrollbar({
+			axis:"y",
+			scrollButtons:{enable:true},
+			theme:"3d",
+			scrollbarPosition:"inside"
+		});
+	});
+
+});
+</script>
+
+</body>
+</html>

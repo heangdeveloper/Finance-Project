@@ -1,0 +1,299 @@
+﻿<!DOCTYPE html>
+<html lang="ko" class="leaf">
+<head>
+<meta charset="UTF-8">
+<title>기업의 자금업무를 위한 통합자금관리서비스</title>
+<meta http-equiv="Cache-Control" content="No-Cache">
+<meta http-equiv="Pragma" content="No-Cache">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="title" content="기업의 자금업무를 위한 통합자금관리서비스">
+<meta name="description" content="국내 전 금융기관을 기업에 연결한 온라인 은행점포로 자금현황을 실시간으로 확인하세요.">
+<meta name="keywords" content="브랜치,Branch,자금관리,자금업무,자금프로그램,대기업,중견기업,자금관리시스템,원화입출계좌,외화입출계좌,B2B,B2B매출계좌,자금집금,자금보고서,지출관리,ERP연계,ERP,계좌입출내역연계,환율정보연계,B2B매출내역,전자어음,대량이체,급여이체,법인카드,연계,전은행계좌조회,전증권사자산,전보험사계약조회,해외계좌관리,경비관리,클라우드서버,계좌권한,전용시스템">
+<!-- The Open Graph protocol -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="기업의 자금업무를 위한 통합자금관리서비스">
+<meta property="og:description" content="국내 전 금융기관을 기업에 연결한 온라인 은행점포로 자금현황을 실시간으로 확인하세요.">
+<meta property="og:url" content="http://www.xbranch.co.kr">
+<meta property="og:image" content="http://www.xbranch.co.kr/branch/branch.img/cmd/branch.png">
+<!-- //The Open Graph protocol -->
+<link rel="SHORTCUT ICON" href="http://www.xbranch.co.kr/branch/branch.img/cmd/favicon.ico">
+<link rel="stylesheet" type="text/css" href="../branch.css/reset.css">
+<link rel="stylesheet" type="text/css" href="../branch.css/content.css">
+<link rel="stylesheet" type="text/css" href="../branch.css/jquery.mCustomScrollbar.css">
+<script type="text/javascript" src="../branch.js/jquery-1.8.3.min.js"></script>
+<!-- script(slide) -->
+<script type="text/javascript" src="../branch.js/ui.vendor.js"></script>
+<script type="text/javascript" src="../branch.js/swiper.min.js"></script>
+<script type="text/javascript" src="../branch.js/slide_slick.js"></script>
+<script type="text/javascript" src="../branch.js/jquery.mCustomScrollbar.js"></script>
+<script type="text/javascript" src="../branch.js/jquery.counter.js"></script>
+<script type="text/javascript" src="../branch.js/branch.cmd.js"></script>
+<!-- //script(slide) -->
+<script type="text/javascript" src="../branch.js/jquery.placeholder.min.js"></script>
+<script>
+$(function(){
+	// Invoke the plugin
+	$('input, textarea').placeholder({customClass:'my-placeholder'});
+});
+</script>
+</head>
+
+<body>
+
+<!-- wrap -->
+<div class="wrap">
+
+	<!-- header -->
+	<div class="header white">
+		<div class="header_inner cboth">
+			 <!-- logo -->
+			<div class="flt">
+				<a href="#none" title="branch 홈으로 바로가기" class="logo"><h1 class="blind">branch</h1></a>
+			</div>
+			<!-- //logo -->
+			<div class="frt gnb_nav">
+				<ul class="cboth gnb_menu">
+					<li><a href="#none">브랜치</a></li>
+					<li class="active"><a href="#none">ERP연계</a></li>
+					<li><a href="#none">스토어</a></li>
+					<li class="mgl20"><a href="#none" >소식</a></li>
+				</ul>
+				<span class="ani"></span>
+			</div>
+		</div>
+		<!-- progressbar -->
+		<div class="progressbar" style="width:0%;"></div>
+		<!-- //progressbar -->
+	</div>
+	<!-- // header -->
+
+	<hr>
+
+	<!-- app_infos -->
+	<div class="app_infos">
+		<div class="inner">
+			<div class="app_icon flt">
+				<div class="cont_app">
+					<h4 class="mgb5">자금대체(집금)결과 연계 API</h4>
+					<p class="txt_info">정보출처: 국내 21개 은행</p>
+					<p class="txt_desc">
+						<span>#자금집금</span>
+						<span>#집금결과</span>
+						<span>#대체자금</span>
+						<span>#집금이체</span>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //app_infos -->
+
+	<hr>
+
+	<!-- container -->
+	<div class="container">
+
+		<div class="sect last">
+			<div class="content">
+				<div class="tit_wrap mgb90">
+					<h3 class="tit_h3">
+						자금집금 결과를 ERP로 연계하여 대체전표 처리를 자동화합니다.
+					</h3>
+				</div>
+				<!-- API -->
+				<div class="mgb90 tac">
+					<img src="../branch.img/erp/img_erp_app_infos_104.png" alt="">
+				</div>
+				<!-- //API -->
+
+				<hr>
+
+				<div class="tit_wrap">
+					<h4 class="tit_h4">
+						제공 API
+					</h4>
+				</div>
+				<div class="tbl_lst3 mgb90" style="display:block;">
+					<table summary="">
+						<caption></caption>
+						<colgroup>
+						<col style="width:250px;">
+						<col>
+						</colgroup>
+						<tbody>
+							<tr>
+								<th><div>집금이체 요청</div></th>
+								<td><div>출금사업자번호, 출금은행, 출금계좌번호, 입금은행, 입금계좌번호, 집금금액, 수수료, 이체상태 등</div></td>
+							</tr>
+							<tr>
+								<th><div>집금이체 실행 결과</div></th>
+								<td><div>집금일자, 집금시간, 출금사업자번호, 출금은행, 출금계좌번호, 입금은행, 입금계좌번호, 집금금액, 수수료, 이체상태 등</div></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<hr>
+
+				<div class="tit_wrap mgb20">
+					<h4 class="tit_h4">
+						정보제공기관
+					</h4>
+				</div>
+				<div class="info_pro mgb80" style="display:block;">
+					<p>
+						산업은행, 기업은행, 국민은행, 수협은행, 농협은행, 우리은행, SC은행, 씨티은행, 대구은행, 부산은행, 광주은행, 제주은행, 전북은행, 경남은행, 새마을금고, 신협은행,<br>
+						우체국, KEB 하나은행, 신한은행, K뱅크, 산림은행 등 (국내 21개은행)
+					</p>
+				</div>
+
+				<div class="tit_wrap mgb30">
+					<h4 class="tit_h4">
+						연계효과
+					</h4>
+				</div>
+				<div class="linkage_ef mgb90">
+					<img src="../branch.img/erp/img_erp_api_ieSymbol.png" alt="연계효과">
+					<ul class="linkage_ef_cnt">
+						<li>
+							집금결과를 연계하여 대체전표를 자동화 합니다.
+							<p>
+								Idle Money 최소화를 위해 정기적인 자금 집금을 할 경우 대체전표가 많아집니다. 집금 결과 ERP연계로 대체전표 처리를 자동화합니다.
+							</p>
+						</li>
+					</ul>
+				</div>
+
+				<hr>
+
+				<div class="tit_wrap mgb30">
+					<h4 class="tit_h4">
+						연계사례
+					</h4>
+				</div>
+				<div>
+					<ul class="api_lst">
+						<li class="api_item">
+							<dl>
+								<dt class="ico">
+									<i><img src="../branch.img/erp/img_erp_logo_sap.png" alt=""></i>
+									<h5>SAP ERP</h5>
+								</dt>
+								<dd>
+									<h4>“모계좌로 한번에 집금하고 대체전표도 자동화”</h4>
+									<ul class="txt_lst">
+										<li>
+											<ul class="cboth">
+												<li>고객명: A업체</li>
+												<li>업종: 도소매</li>
+												<li>매출액: 5,000억 이상</li>
+											</ul>
+										</li>
+									</ul>
+									<p class="des">
+										브랜치의 자금집금 기능을 통해 44개의 계좌를 모계좌로 한번에 집금함으로써 유휴자금 없이 효율적인 자금 운영이 가능하고,<br>
+										<span>집금결과 내역</span>은 입출금거래내역과 구분하여 ERP로 전송하여 대체전표 자동화
+									</p>
+								</dd>
+							</dl>
+						</li>
+						<li class="api_item">
+							<dl>
+								<dt class="ico">
+									<i><img src="../branch.img/erp/img_erp_logo_ksystem.png" alt=""></i>
+									<h5>영림원소프트랩</h5>
+								</dt>
+								<dd>
+									<h4>“정확하고 빠르게 시스템에 반영하고 대체전표 일괄처리로 업무비용 절감”</h4>
+									<ul class="txt_lst">
+										<li>
+											<ul class="cboth">
+												<li>고객명: W제약</li>
+												<li>업종: 의약품 제조</li>
+												<li>매출액: 5,000억 이상</li>
+											</ul>
+										</li>
+									</ul>
+									<p class="des">
+										<span>자금대체(집금)결과 연계</span>로 재무팀의 대체전표 작성 시 발생할 수 있는 누락과 오입력 없이 정확하고 빠르게 회계시스템에 반영하고<br>
+										대체전표 일괄처리로 업무비용 절감 효과
+									</p>
+								</dd>
+							</dl>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<!-- //container -->
+
+	<hr>
+
+	<!-- footer -->
+	<div class="footer">
+		<!-- footer menu -->
+		<div class="footer_menu">
+			<div class="footer_menu_inner">
+				<ul class="cboth">
+					<li><a href="https://www.webcash.co.kr/" target="_blank">회사소개</a></li>
+					<li><a href="#none" class="active">개인정보처리방침</a></li>
+					<!--<li><a href="#none">이용약관</a></li>-->
+				</ul>
+			</div>
+		</div>
+		<!--//footer menu -->
+
+		<!-- footer bottom -->
+		<div class="footer_bottom">
+			<div class="footer_bottom_inner">
+				<p class="tx_copyright">Copyright(c) 2018 Webcash corp. All Rights reserved.</p>
+				<div class="footer_logo"><a href="https://www.webcash.co.kr/" target="_blank"><img src="../branch.img/cmd/logo_webcash.png" alt="Webcash"></a></div>
+			</div>
+		</div>
+		<!-- //footer bottom -->
+	</div>
+	<!-- //footer -->
+
+	<hr>
+
+	<!-- (botton)gotoBack --><a href="#none" class="btn_gotoBack"><span class="blind">go to Back</span></a><!-- //(botton)gotoBack -->
+	<!-- (botton)goto -->
+	<div class="bnt_totop_wrap">
+		<!-- (botton)gotoInquire --><a href="#none" class="btn_gotoInquire"><span class="blind">도입문의</span></a><!-- //(botton)gotoInquire -->
+		<!-- (botton)gotoTop --><a href="#none" class="btn_gotoTop"><span class="blind">go to Top</span></a><!-- //(botton)gotoTop -->
+	</div>
+	<!-- //(botton)goto -->
+
+</div>
+<!-- //wrap -->
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.slide_container_index').slick({
+		dots: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		autoplay: true,
+		autoplaySpeed: 2500
+	});
+
+	// scroll style
+	$(function() {
+		/* custom scroll */
+		$('.scrollbar_srch_style').mCustomScrollbar({
+			axis:"y",
+			scrollButtons:{enable:true},
+			theme:"3d",
+			scrollbarPosition:"inside"
+		});
+	});
+
+	$('.counter').counter();
+
+});
+</script>
+
+</body>
+</html>
